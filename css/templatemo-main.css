@@ -29,6 +29,7 @@ a {
 
 a:hover {
   color: #fff;
+  text-decoration: none;
 }
 
 /*----------
@@ -144,21 +145,28 @@ a:hover {
   letter-spacing: 1px;
 }
 
+.primary-button :hover {
+  background-color: #fff;
+  color: #ff4c29;
+}
+
 .catalogue-button a {
   display: inline-block;
   background-color: #ff4c29;
   padding: 15px 24px;
   border-radius: 3px;
-  color: #ff4c29;
-  /* border: 2px solid #ff4c29; */
   border-radius: 10px;
   text-transform: uppercase;
   font-family: "Overpass", sans-serif;
   font-size: 14px;
   color: #fff;
   font-weight: 700;
-  /* text-decoration: ; */
   letter-spacing: 1px;
+}
+
+.catalogue-button :hover {
+  background-color: #fff;
+  color: #ff4c29;
 }
 
 .parallax-content {
@@ -203,6 +211,13 @@ a:hover {
 
 .baner-content .primary-button {
   margin-top: 15px;
+}
+
+.baner-content .primary-button :hover {
+  background-color: #fff;
+  color: #ff4c29;
+  border: 2px solid #ff4c29;
+  color: #ff4c29;
 }
 
 .service-content {
@@ -491,6 +506,11 @@ section {
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
+}
+
+#contact .btn:hover {
+  background-color: #fff;
+  color: #ff4c29;
 }
 
 .map {
