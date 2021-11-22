@@ -7,7 +7,9 @@ https://templatemo.com/tm-526-vanilla
 */
 
 p {
-  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 200;
+  font-size: 17px;
   line-height: 25px;
 }
 
@@ -22,11 +24,11 @@ body {
 }
 
 a {
-  color: #3cc;
+  color: #ff4c29;
 }
 
 a:hover {
-  color: #ff0;
+  color: #fff;
 }
 
 /*----------
@@ -127,15 +129,36 @@ a:hover {
 
 .primary-button a {
   display: inline-block;
-  background-color: #f4a442;
+  background-color: rgba(255, 255, 255, 0);
   padding: 15px 24px;
   border-radius: 3px;
+  color: #ff4c29;
+  border: 2px solid #ff4c29;
+  border-radius: 10px;
   text-transform: uppercase;
-  font-size: 11px;
+  font-family: "Overpass", sans-serif;
+  font-size: 14px;
   color: #fff;
   font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 0.5px;
+  /* text-decoration: ; */
+  letter-spacing: 1px;
+}
+
+.catalogue-button a {
+  display: inline-block;
+  background-color: #ff4c29;
+  padding: 15px 24px;
+  border-radius: 3px;
+  color: #ff4c29;
+  /* border: 2px solid #ff4c29; */
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-family: "Overpass", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  /* text-decoration: ; */
+  letter-spacing: 1px;
 }
 
 .parallax-content {
@@ -146,31 +169,36 @@ a:hover {
 
 .baner-content {
   padding-top: 30vh;
-  text-align: center;
+  text-align: left;
   background-image: url(../img/1st-section.png);
 }
 
 .baner-content h1 {
+  font-family: "Ubuntu", sans-serif;
   margin-top: 0px;
-  font-size: 128px;
-  color: #fff;
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 5px #fff;
   font-weight: 900;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin-bottom: 15px;
 }
 
 .baner-content em {
-  color: #f4a442;
-  font-weight: 600;
+  color: #fff;
+  font-weight: 500;
   font-style: normal;
 }
 
 .baner-content span {
+  font-family: "Ubuntu", sans-serif;
   display: inline-block;
-  margin-top: -20px;
-  font-weight: 300;
+  line-height: normal;
+  /* margin-top: -20px; */
+  font-weight: 500;
   font-size: 48px;
-  color: #fff;
+  color: #ff4c29;
+  padding-bottom: 15px;
 }
 
 .baner-content .primary-button {
@@ -181,7 +209,7 @@ a:hover {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 15vh;
-  background-image: url(../img/2nd-section.jpeg);
+  background-image: url(../img/2nd-section.png);
   background-attachment: fixed;
   min-height: 100vh;
   background-size: cover;
@@ -189,8 +217,8 @@ a:hover {
 }
 
 .service-content .left-text h4 {
-  font-size: 24px;
-  font-weight: 500;
+  font-size: 35px;
+  font-weight: 600;
   color: #fff;
 }
 
@@ -199,10 +227,20 @@ h4,
   font-size: 18px;
 }
 
+.service-content h4 span {
+  font-size: 50px;
+  font-family: "Ubuntu", sans-serif;
+  color: rgba(255, 255, 255, 0);
+  -webkit-text-stroke: 2px #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
 .service-content .left-text .line-dec {
-  width: 45px;
-  height: 3px;
-  background-color: #f4a442;
+  width: 80px;
+  height: 4px;
+  background-color: #ff4c29;
   margin: 20px 0px 20px 0px;
 }
 
@@ -235,14 +273,14 @@ h4,
 }
 
 .service-content .service-item .line-dec {
-  width: 45px;
-  height: 3px;
-  background-color: #f4a442;
+  width: 80px;
+  height: 4px;
+  background-color: #ff4c29;
   margin: 20px auto 15px auto;
 }
 
 .projects-content {
-  padding-top: 20vh;
+  padding-top: 13vh;
   background-image: url(../img/3rd-section.jpg);
 }
 
@@ -270,7 +308,22 @@ h4,
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
-  color: #f4a442;
+  color: #ff4c29;
+}
+
+.projects-content .line-dec {
+  width: 80px;
+  height: 4px;
+  background-color: #ff4c29;
+  margin: 0px auto 20px 15px;
+}
+
+.projects-content h4 {
+  font-family: "Overpass", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
+  padding-left: 15px;
 }
 
 .owl-pagination {
@@ -337,11 +390,11 @@ section {
 }
 
 .tabs a:hover {
-  color: #f4a442;
+  color: #ff4c29;
 }
 
 .tabs .active {
-  border: 4px solid #f4a442;
+  border: 4px solid #ff4c29;
 }
 
 .tabgroup div {
@@ -363,7 +416,21 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/5th-section.jpg);
+  background-image: url(../img/5th-section.png);
+}
+
+.contact-content .line-dec {
+  width: 100%;
+  height: 4px;
+  background-color: #ff4c29;
+  margin: 0px auto 20px 0px;
+}
+
+.contact-content h4 {
+  font-family: "Overpass", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .contact-form {
@@ -373,6 +440,7 @@ section {
 }
 
 #contact input {
+  font-family: "Overpass", sans-serif;
   border-radius: 3px;
   padding-left: 15px;
   font-size: 13px;
@@ -388,6 +456,7 @@ section {
 }
 
 #contact textarea {
+  font-family: "Overpass", sans-serif;
   border-radius: 3px;
   padding-left: 15px;
   padding-top: 10px;
@@ -404,13 +473,14 @@ section {
 }
 
 #contact button {
+  font-family: "Overpass", sans-serif;
   display: inline-block;
-  background-color: #f4a442;
+  background-color: #ff4c29;
   padding: 15px 24px;
   width: 100%;
   border-radius: 3px;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: 12px;
   color: #fff;
   font-weight: 700;
   text-decoration: none;
@@ -426,7 +496,7 @@ section {
 
 footer {
   text-align: center;
-  background-color: #282b2f;
+  background-color: #334756;
   padding: 70px 0px;
 }
 
@@ -451,8 +521,8 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #f4a442;
-  color: #282b2f;
+  background-color: #ff4c29;
+  color: #334756;
   border-radius: 50%;
   text-decoration: none;
   transition: all 0.5s;
@@ -460,8 +530,8 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-  color: #282b2f;
-  background-color: #ff8e43;
+  color: #334756;
+  background-color: #fff;
 }
 
 footer p {
@@ -474,7 +544,7 @@ footer p {
 }
 
 footer em {
-  color: #ff8e43;
+  color: #ff4c29;
   font-weight: 600;
   font-style: normal;
 }
@@ -507,7 +577,7 @@ footer em {
   .service-content .left-text .line-dec {
     width: 45px;
     height: 3px;
-    background-color: #f4a442;
+    background-color: #ff4c29;
     margin: 20px auto 20px auto;
   }
 
