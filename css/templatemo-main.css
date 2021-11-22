@@ -555,7 +555,7 @@ footer em {
   font-style: normal;
 }
 
-/* @media (max-width: 767px) {
+@media (max-width: 767px) {
   .baner-content {
     padding-top: 30vh;
   }
@@ -573,6 +573,11 @@ footer em {
 
   .baner-content .primary-button {
     margin-top: 15px;
+  }
+
+  .catalogue-button a {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .service-content {
@@ -598,13 +603,12 @@ footer em {
     color: #fff;
     margin-bottom: 30px;
   }
-} */
-
-/* @media (min-width: 1200px) {
+}
+@media (min-width: 1200px) {
   .container {
     max-width: 1170px;
   }
-} */
+}
 
 /* LIGHT BOX */
 
