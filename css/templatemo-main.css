@@ -211,7 +211,7 @@ a:hover {
   padding-top: 15vh;
   background-image: url(../img/2nd-section.png);
   width: 100%;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -555,7 +555,7 @@ footer em {
   font-style: normal;
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .baner-content {
     padding-top: 30vh;
   }
@@ -598,7 +598,7 @@ footer em {
     color: #fff;
     margin-bottom: 30px;
   }
-}
+} */
 
 /* @media (min-width: 1200px) {
   .container {
